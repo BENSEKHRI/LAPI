@@ -2,15 +2,16 @@
 
 # Auteur
     Mohand Lounis BENSEKHRI
+    lounisbensekhri@gmail.com
     N° étudiant: 11710457
     Master 1 Informatique 
     Université Sorbonne Paris Nord - Institut Galilée 
 
 # Date
-Lundi, 28 mars 2022
+    Lundi, 28 mars 2022
 
 # LAPI "Lecture automatique des plaques d’immatriculation"
-La reconnaissance automatisée des plaques minéralogiques également appelée LAPI "Lecture automatique des plaques d’immatriculation" ou en anglais Automatic number-plate recognition (ANPR) est une technologie destinée à identifier les plaques d'immatriculation de véhicules via l'utilisation de techniques de reconnaissance optique de caractères (OCR).
+    La reconnaissance automatisée des plaques minéralogiques également appelée LAPI "Lecture automatique des plaques d’immatriculation" ou en anglais Automatic number-plate recognition (ANPR) est une technologie destinée à identifier les plaques d'immatriculation de véhicules via l'utilisation de techniques de reconnaissance optique de caractères (OCR).
 
 # Pré-requis
     * python 3.9.7
