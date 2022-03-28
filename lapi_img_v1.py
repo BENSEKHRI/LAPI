@@ -15,8 +15,8 @@ def extract_num(img_filename):
     
     #Image en gris
     gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-    nplate=cascade.detectMultiScale(gray,1.1,4)
     
+    nplate=cascade.detectMultiScale(gray,1.1,4)
     #crop portion
     for (x,y,w,h) in nplate:
         wT,hT,cT=img.shape
@@ -61,4 +61,4 @@ def extract_num(img_filename):
     
     
 
-extract_num("Ressources/voitures/car006.jpg")
+extract_num("Ressources/voitures/car085.jpg")

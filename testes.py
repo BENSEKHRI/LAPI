@@ -36,14 +36,26 @@ def render_i_number_plates (i):
 # Ajoute des dossier (list) à notre fichier data.json
 def addXToJson(chemin, x): 
     
-    with open(chemin, "r",) as f:
+    with open(chemin, "r") as f:
         data = json.load(f)
 
     data.append(x)
 
-    with open(chemin, "w",) as f:
+    with open(chemin, "w") as f:
         json.dump(data, f, indent=4)
-       
+
+def clearListJson (chemin) :
+    data = []
+    with open(chemin, "w") as f:
+        json.dump(data, f, indent=4)  
+        
+    with open(chemin, "r") as f:
+        data = json.load(f)
+    
+    data = []
+    
+    with open(chemin, "w") as f:
+        json.dump(data, f, indent=4)      
        
 #compare deux chaine de caractère et renvoi le taux de compatibilité de dest par rapport à str en % 
 def compareStr (src, dest):

@@ -55,6 +55,7 @@ data2 = r"C:\Users\HP\OneDrive\Bureau\LAPI\Ressources\json\data2.json"
 
 def main () :
     start = time.time()
+    testes.clearListJson(data2)
     for i in range(0,testes.nbFileDir(voitures)):
         img_filename = f"Ressources/voitures/{testes.render_i_cars(i)}"
         print("Traitement de la voiture : " + testes.render_i_cars(i))
