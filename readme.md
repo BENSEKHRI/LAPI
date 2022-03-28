@@ -1,10 +1,10 @@
 # Initiation à la recherche
 
 # Auteur
-Mohand Lounis BENSEKHRI
-N° étudiant: 11710457
-Master 1 Informatique 
-Université Sorbonne Paris Nord - Institut Galilée 
+    Mohand Lounis BENSEKHRI
+    N° étudiant: 11710457
+    Master 1 Informatique 
+    Université Sorbonne Paris Nord - Institut Galilée 
 
 # Date
 Lundi, 28 mars 2022
