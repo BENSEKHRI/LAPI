@@ -61,4 +61,4 @@ def extract_num(img_filename):
     
     
 
-extract_num("Ressources/voitures/car085.jpg")
+extract_num("Ressources/voitures/car023.jpg")
